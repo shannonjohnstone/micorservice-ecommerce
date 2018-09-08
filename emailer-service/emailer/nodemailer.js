@@ -12,7 +12,7 @@ const transporter = nodemailer.createTransport({
 });
 
 const testMessage = {
-  to: 'shannon@shannonjohnstone.com.au <shannon@shannonjohnstone.com.au>',
+  to: 'test@test.com.au <test@test.com.au>',
   subject: 'Emailer service test - nodemailer',
   text: 'Hello World!',
   html: `
