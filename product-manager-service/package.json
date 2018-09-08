@@ -1,0 +1,35 @@
+{
+  "name": "product-manager-service",
+  "version": "1.0.0",
+  "description": "Product manager service",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start:dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shannonjohnstone/micorservice-ecommerce.git"
+  },
+  "keywords": [
+    "product",
+    "microservice"
+  ],
+  "author": "Shannon Johnstone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shannonjohnstone/micorservice-ecommerce/issues"
+  },
+  "homepage": "https://github.com/shannonjohnstone/micorservice-ecommerce#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "seneca": "^3.6.0",
+    "seneca-entity": "^2.2.0",
+    "seneca-mongo-store": "^1.1.0",
+    "seneca-web": "^2.2.0",
+    "seneca-web-adapter-express": "^1.1.1",
+    "type-is": "^1.6.16"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "emailer-service",
+  "version": "1.0.0",
+  "description": "emailer service",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "nodemailer": "^4.6.8",
+    "seneca": "^3.7.0",
+    "seneca-web": "^2.2.0",
+    "seneca-web-adapter-express": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start:dev": "node index.js"
+  },
+  "keywords": [
+    "email",
+    "node",
+    "microservices"
+  ],
+  "author": "Shannon Johnstone",
+  "license": "MIT"
+}
